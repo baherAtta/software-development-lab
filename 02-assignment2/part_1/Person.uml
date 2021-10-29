@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Person</OriginalElement>
+  <nodes>
+    <node x="173.0" y="481.0">Faculty</node>
+    <node x="39.25" y="251.5">Employee</node>
+    <node x="432.25" y="0.0">MyDate</node>
+    <node x="0.0" y="492.0">Staff</node>
+    <node x="331.25" y="218.0">Student</node>
+    <node x="215.0" y="0.0">Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Faculty" target="Employee" relationship="GENERALIZATION">
+      <point x="0.0" y="-62.0" />
+      <point x="274.0" y="456.0" />
+      <point x="175.25" y="456.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="Student" target="Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.5" />
+      <point x="415.75" y="193.0" />
+      <point x="295.5" y="193.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="Staff" target="Employee" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="76.5" y="456.0" />
+      <point x="175.25" y="456.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="Employee" target="Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="175.25" y="193.0" />
+      <point x="295.5" y="193.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="350.0" y="307.5" />
+  <SelectedNodes>
+    <node>MyDate</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
